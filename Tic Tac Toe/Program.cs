@@ -9,9 +9,9 @@ namespace Tic_Tac_Toe
     class Program
     {
         static char[] array = { '0', '1', '2', '3', '4', '5', '6', '7', '8' };//board array
-        static int choice;
-        static int player = 1;
-        static bool repeat;
+        static int choice;//player choose
+        //static int player = 1;
+        
 
         static int who_won = 0; //1 = win, -1 = draw, 0 = still running
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Tic Tac Toe\\Tic Tac Toe\\Tic Tac Toe.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Documents\\Tic Tac Toe\\Tic Tac Toe\\Tic Tac Toe.csproj",
       "projectName": "Tic Tac Toe",
-      "projectPath": "D:\\Projects\\Tic Tac Toe\\Tic Tac Toe\\Tic Tac Toe.csproj",
+      "projectPath": "C:\\Users\\victo\\Documents\\Tic Tac Toe\\Tic Tac Toe\\Tic Tac Toe.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Tic Tac Toe\\Tic Tac Toe\\obj\\",
+      "outputPath": "C:\\Users\\victo\\Documents\\Tic Tac Toe\\Tic Tac Toe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
