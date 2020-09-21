@@ -123,11 +123,12 @@ namespace Tic_Tac_Toe
             choice = int.Parse(Console.ReadLine());
             array[choice] = 'X';
         
+        
           
 
 
 
-                Board();
+            Board();
             CheckWinPlayer1();
             Player2();
             
