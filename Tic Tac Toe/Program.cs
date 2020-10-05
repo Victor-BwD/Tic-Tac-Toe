@@ -32,14 +32,14 @@ namespace Tic_Tac_Toe
             if (dice <= 4)
             {
                 Console.WriteLine("Player 1 starts!");
-                Console.WriteLine("\n");
+                
                 Player1();
 
             }
             else
             {
                 Console.WriteLine("Player 2 starts!");
-                Console.WriteLine("\n");
+                
                 Player2();
             }
             
@@ -117,7 +117,7 @@ namespace Tic_Tac_Toe
         private static void Player1()
         {
       
-            Console.WriteLine("Player 1 choose...");
+            Console.Write("Player 1 choose:");
             
 
             choice = int.Parse(Console.ReadLine());
@@ -138,7 +138,7 @@ namespace Tic_Tac_Toe
         {
 
 
-            Console.WriteLine("Player 2 choose...");
+            Console.Write("Player 2 choose:");
             choice = int.Parse(Console.ReadLine());
             array[choice] = 'O';
 
