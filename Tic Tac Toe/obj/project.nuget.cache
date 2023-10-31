@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aTzgWVoCSYFbKK2UvEeUAyQf3v68yIkxk5B54k92rpRDEaEct1y7ZLrOef0entEToeJwncKiFt2+cmN9hrIF4Q==",
+  "dgSpecHash": "PHuPwaWmkHXu8ePexmC2tn493q9IeX6pA93BQ1Umob1d9wlffbg3D+gE1gwOa2Nb80WQADCDzOqW8/1wL9Cxsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\Documents\\Tic Tac Toe\\Tic Tac Toe\\Tic Tac Toe.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\Projetos\\C#\\Tic-Tac-Toe\\Tic Tac Toe\\Tic Tac Toe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

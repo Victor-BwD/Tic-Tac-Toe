@@ -24,3 +24,17 @@ C:\Users\victo\Documents\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac
 C:\Users\victo\Documents\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.dll
 C:\Users\victo\Documents\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.pdb
 C:\Users\victo\Documents\Tic Tac Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.genruntimeconfig.cache
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.exe
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.deps.json
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.runtimeconfig.json
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.runtimeconfig.dev.json
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.dll
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\bin\Debug\netcoreapp3.1\Tic Tac Toe.pdb
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.csproj.AssemblyReference.cache
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.AssemblyInfoInputs.cache
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.AssemblyInfo.cs
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.csproj.CoreCompileInputs.cache
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.dll
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.pdb
+F:\Projetos\C#\Tic-Tac-Toe\Tic Tac Toe\obj\Debug\netcoreapp3.1\Tic Tac Toe.genruntimeconfig.cache
