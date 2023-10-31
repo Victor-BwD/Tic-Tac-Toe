@@ -20,19 +20,19 @@ namespace Tic_Tac_Toe.Entities
             return Roll();
         }
 
-        public Player WhoBegin()
+        public Player WhoBegin(Player player1, Player player2)
         {
             var diceRoll = GetDiceRoll();
 
             if (diceRoll <= 3)
             {
                 Console.WriteLine("Player 1 starts the game!");
-                return player1 = new Player(1, 'X');
+                return player1;
             }
             else
             {
                 Console.WriteLine("Player 2 starts the game!");
-                return player2 = new Player(2, 'O');
+                return player2;
             }
         }
     }

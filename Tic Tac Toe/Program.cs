@@ -1,7 +1,4 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Reflection.Metadata.Ecma335;
-using System.Threading;
 using Tic_Tac_Toe.Entities;
 
 
@@ -13,10 +10,12 @@ namespace Tic_Tac_Toe
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Tic Tac Toe!");
-            var diceRoll = new DiceRoll();
+            DiceRoll diceRoll = new DiceRoll();
+            Player player1 = new Player(1, 'X');
+            Player player2 = new Player(2, 'O');
 
-            Player startingPlayer = diceRoll.WhoBegin();
-            
+            Player startingPlayer = diceRoll.WhoBegin(player1, player2);
+
             Console.WriteLine(startingPlayer);
             Console.WriteLine();
 
@@ -24,19 +23,18 @@ namespace Tic_Tac_Toe
             board.BoardDraw();
 
             Player currentPlayer = startingPlayer;
-            
+
             while (true)
             {
-                if (currentPlayer.Number == 1)
+                currentPlayer.PlayersMakeMove(board, currentPlayer);
+                
+                if (board.CheckForWin(currentPlayer.Symbol))
                 {
-                    var player2 = new Player(2, 'O');
-                    currentPlayer.PlayersMakeMove(board, currentPlayer, player2);
-                    
-                }else if (currentPlayer.Number == 2)
-                {
-                    var player1 = new Player(1, 'X');
-                    currentPlayer.PlayersMakeMove(board, player1, currentPlayer);
+                    Console.WriteLine($"Player {currentPlayer.Number} wins!");
+                    break;
                 }
+                
+                currentPlayer = (currentPlayer.Number == 1) ? player2 : player1;
             }
         }
     }

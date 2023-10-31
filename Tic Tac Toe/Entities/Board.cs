@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Tic_Tac_Toe.Entities
 {
@@ -56,6 +57,26 @@ namespace Tic_Tac_Toe.Entities
                 }
             }
             array[index] = value;
+        }
+        
+        public bool CheckForWin(char symbol)
+        {
+            var winConditions = new List<int[]>
+            {
+                new[] {0, 1, 2}, new[] {3, 4, 5}, new[] {6, 7, 8}, // Linhas horizontais
+                new[] {0, 3, 6}, new[] {1, 4, 7}, new[] {2, 5, 8}, // Colunas verticais
+                new[] {0, 4, 8}, new[] {2, 4, 6} // Diagonais
+            };
+
+            foreach (var condition in winConditions)
+            {
+                if (array[condition[0]] == symbol && array[condition[1]] == symbol && array[condition[2]] == symbol)
+                {
+                    return true;
+                }
+            }
+
+            return false; // Nenhum jogador com o símbolo especificado venceu ainda
         }
     }
 }

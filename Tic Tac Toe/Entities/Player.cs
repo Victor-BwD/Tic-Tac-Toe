@@ -23,17 +23,13 @@ namespace Tic_Tac_Toe.Entities
             Symbol = symbol;
         }
         
-        public void PlayersMakeMove (Board board, Player player1, Player player2)
+        public void PlayersMakeMove(Board board, Player currentPlayer)
         {
-            Console.WriteLine("Player 1, choose a position: ");
+            Console.WriteLine($"Player {currentPlayer.Number}, choose a position: ");
             int position = int.Parse(Console.ReadLine());
-            board.SetPosition(position, player1.Symbol);
+            board.SetPosition(position, currentPlayer.Symbol);
             board.BoardDraw();
-            
-            Console.WriteLine("Player 2, choose a position: ");
-            position = int.Parse(Console.ReadLine());
-            board.SetPosition(position, player2.Symbol);
-            board.BoardDraw();
+            Console.WriteLine($"Player {currentPlayer.Number} joga");
         }
 
         public override string ToString()
